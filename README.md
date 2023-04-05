@@ -3,7 +3,22 @@ A hand-curated list of Swift macros. Feel free to contribute!
 
 ## Macros
 
-- [swift-power-assert](https://github.com/kishikawakatsumi/swift-power-assert)
+- [Swift Macro Examples](https://github.com/DougGregor/swift-macro-examples)
+
+```swift
+// "Stringify" macro turns the expression into a string.
+#stringify(x + y)
+
+// "AddBlocker" complains about addition operations. We emit a warning
+// so it doesn't block compilation.
+#addBlocker(x * y + z)
+
+// "#URL" macro provides compile time checked URL construction. If the URL is
+// malformed an error is emitted. Otherwise a non-optional URL is expanded.
+#URL("https://swift.org/")
+```
+
+- [swift Power Assert](https://github.com/kishikawakatsumi/swift-power-assert)
 
 ```swift
 #powerAssert(max(a, b) == c)
