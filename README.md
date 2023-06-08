@@ -5,6 +5,7 @@ A hand-curated list of Swift macros. Feel free to contribute!
 
 - [Discover Observation in SwiftUI](https://developer.apple.com/videos/play/wwdc2023/10149)
 - [Expand on Swift macros](https://developer.apple.com/videos/play/wwdc2023/10167)
+- [Write Swift macros](https://developer.apple.com/videos/play/wwdc2023/10166)
 
 ## Macros
 
@@ -30,6 +31,13 @@ A hand-curated list of Swift macros. Feel free to contribute!
              |   |  |  |  |
              7   4  7  |  12
                        false
+```
+
+- Preview macro (Xcode 15+)
+```swift
+#Preview {
+    Button("SwiftUI") {}
+}
 ```
 
 ## Proposals
