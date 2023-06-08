@@ -1,6 +1,11 @@
 # Awesome Swift Macros
 A hand-curated list of Swift macros. Feel free to contribute!
 
+## WWDC23
+
+- [Discover Observation in SwiftUI](https://developer.apple.com/videos/play/wwdc2023/10149)
+- [Expand on Swift macros](https://developer.apple.com/videos/play/wwdc2023/10167)
+
 ## Macros
 
 - [Swift Macro Examples](https://github.com/DougGregor/swift-macro-examples)
