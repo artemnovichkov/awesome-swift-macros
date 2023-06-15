@@ -40,6 +40,16 @@ A hand-curated list of Swift macros. Feel free to contribute!
 }
 ```
 
+- [SFSymbolsMacro](https://github.com/lukepistrol/SFSymbolsMacro)
+
+```swift
+import SFSymbolsMacro
+import SwiftUI
+
+@SFSymbol
+enum Symbols: String { ... }
+```
+
 ## Proposals
 
 * [SE-0382: Expression macros](https://github.com/DougGregor/swift-evolution/blob/se-0382-expression-macros-updates/proposals/0382-expression-macros.md)
